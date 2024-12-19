@@ -1,58 +1,24 @@
-# Welcome to your Lovable project
+# Proyecto de Accesibilidad Web
 
-## Project info
+## Información del proyecto
 
-**URL**: https://lovable.dev/projects/326a9151-e18a-444a-a4bc-9105d3181d90
+Este proyecto es una aplicación web diseñada para analizar sitios web en busca de problemas de accesibilidad y proporcionar recomendaciones basadas en las pautas WCAG.
 
-## How can I edit this code?
+## ¿Qué hace este proyecto?
 
-There are several ways of editing your application.
+Este proyecto incluye varias funcionalidades, tales como:
 
-**Use Lovable**
+- **Lista de Issues**: Una lista de problemas o tareas pendientes.
+- **Descarga de Reportes**: Funcionalidad para descargar reportes en diferentes formatos.
+- **Dashboard de Resultados**: Un panel que muestra los resultados de diferentes métricas.
+- **Formulario de Escaneo**: Un formulario para iniciar escaneos o análisis.
+- **Gráfico de Severidad**: Un gráfico que muestra la severidad de diferentes problemas.
+- **Proveedor de Temas**: Un componente para manejar los temas de la aplicación.
+- **Toggle de Tema**: Un interruptor para cambiar entre temas claro y oscuro.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/326a9151-e18a-444a-a4bc-9105d3181d90) and start prompting.
+## Tecnologías utilizadas
 
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with .
+Este proyecto está construido con:
 
 - Vite
 - TypeScript
@@ -60,10 +26,23 @@ This project is built with .
 - shadcn-ui
 - Tailwind CSS
 
-## How can I deploy this project?
+## ¿Cómo puedo editar este código?
 
-Simply open [Lovable](https://lovable.dev/projects/326a9151-e18a-444a-a4bc-9105d3181d90) and click on Share -> Publish.
+Puedes trabajar localmente usando tu propio IDE. Para ello, clona este repositorio y empuja los cambios.
 
-## I want to use a custom domain - is that possible?
+El único requisito es tener Node.js y npm instalados - [instalar con nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+Sigue estos pasos:
+
+```sh
+# Paso 1: Clona el repositorio usando la URL del proyecto.
+git clone <YOUR_GIT_URL>
+
+# Paso 2: Navega al directorio del proyecto.
+cd <YOUR_PROJECT_NAME>
+
+# Paso 3: Instala las dependencias necesarias.
+npm i
+
+# Paso 4: Inicia el servidor de desarrollo con recarga automática y vista previa instantánea.
+npm run dev
