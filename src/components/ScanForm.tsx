@@ -49,7 +49,7 @@ export function ScanForm({ onScan, isLoading }: ScanFormProps) {
               Escaneando...
             </>
           ) : (
-            "Escanear sitio"
+            "Escanear sitios"
           )}
         </Button>
       </div>
